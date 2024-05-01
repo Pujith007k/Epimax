@@ -1,0 +1,75 @@
+.MainContainer{
+    display:flex;
+    
+
+}
+.InputContainer{
+    display:flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items:flex-start;
+    height:100vh;
+    width:50vw;
+
+}
+.listContainer{
+    display:flex;
+    height:100vh;
+    width:50vw;
+
+}
+.unorderedList{
+    display:flex;
+    flex-direction:column;
+    overflow: scroll;
+}
+.taskList{
+    height:250px;
+    width:800px;
+    list-style-type: none;
+    color:#000000;
+    margin:10px;
+    background-color: bisque;
+    padding:10px;
+    border-radius:10px;
+
+}
+.formContainer{
+    display:flex;
+    flex-direction: column;
+   
+}
+.input{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+}
+.label{
+    height:19px;
+    width:96px;
+    color:#000000;
+    font-family: 'Lato';
+    font-weight: 400px;
+    font-size: 16px;
+}
+.InputTitle{
+    background-color: #F5F5F5;
+    height:15px;
+    width:325px;
+    color:#000000;
+   
+}
+.Button{
+    height:40px;
+    width:325px;
+    background-color: #000000;
+    color:#ffffff;
+    border-radius:10px;
+    font-family: 'Montserrat';
+    margin:15px;
+    font-size: 16px;
+}
+.dropDownList{
+    height:20px;
+    width:325px;
+}
